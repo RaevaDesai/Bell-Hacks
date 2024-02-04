@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B4D46A92B6EBE1F008B8A2D /* glowifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D46A82B6EBE1F008B8A2D /* glowifyApp.swift */; };
+		8B4D46AB2B6EBE1F008B8A2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D46AA2B6EBE1F008B8A2D /* ContentView.swift */; };
+		8B4D46AD2B6EBE20008B8A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4D46AC2B6EBE20008B8A2D /* Assets.xcassets */; };
+		8B4D46B12B6EBE20008B8A2D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4D46B02B6EBE20008B8A2D /* Preview Assets.xcassets */; };
+		8B4D46BB2B6EBE20008B8A2D /* glowifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D46BA2B6EBE20008B8A2D /* glowifyTests.swift */; };
+		8B4D46C52B6EBE20008B8A2D /* glowifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D46C42B6EBE20008B8A2D /* glowifyUITests.swift */; };
+		8B4D46C72B6EBE20008B8A2D /* glowifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D46C62B6EBE20008B8A2D /* glowifyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B4D46B72B6EBE20008B8A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B4D469D2B6EBE1F008B8A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4D46A42B6EBE1F008B8A2D;
+			remoteInfo = glowify;
+		};
+		8B4D46C12B6EBE20008B8A2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B4D469D2B6EBE1F008B8A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4D46A42B6EBE1F008B8A2D;
+			remoteInfo = glowify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B4D46A52B6EBE1F008B8A2D /* glowify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glowify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4D46A82B6EBE1F008B8A2D /* glowifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glowifyApp.swift; sourceTree = "<group>"; };
+		8B4D46AA2B6EBE1F008B8A2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B4D46AC2B6EBE20008B8A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B4D46AE2B6EBE20008B8A2D /* glowify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = glowify.entitlements; sourceTree = "<group>"; };
+		8B4D46B02B6EBE20008B8A2D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B4D46B62B6EBE20008B8A2D /* glowifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glowifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4D46BA2B6EBE20008B8A2D /* glowifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glowifyTests.swift; sourceTree = "<group>"; };
+		8B4D46C02B6EBE20008B8A2D /* glowifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = glowifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4D46C42B6EBE20008B8A2D /* glowifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glowifyUITests.swift; sourceTree = "<group>"; };
+		8B4D46C62B6EBE20008B8A2D /* glowifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glowifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B4D46A22B6EBE1F008B8A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4D46B32B6EBE20008B8A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4D46BD2B6EBE20008B8A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B4D469C2B6EBE1F008B8A2D = {
+			isa = PBXGroup;
+			children = (
+				8B4D46A72B6EBE1F008B8A2D /* glowify */,
+				8B4D46B92B6EBE20008B8A2D /* glowifyTests */,
+				8B4D46C32B6EBE20008B8A2D /* glowifyUITests */,
+				8B4D46A62B6EBE1F008B8A2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B4D46A62B6EBE1F008B8A2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B4D46A52B6EBE1F008B8A2D /* glowify.app */,
+				8B4D46B62B6EBE20008B8A2D /* glowifyTests.xctest */,
+				8B4D46C02B6EBE20008B8A2D /* glowifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B4D46A72B6EBE1F008B8A2D /* glowify */ = {
+			isa = PBXGroup;
+			children = (
+				8B4D46A82B6EBE1F008B8A2D /* glowifyApp.swift */,
+				8B4D46AA2B6EBE1F008B8A2D /* ContentView.swift */,
+				8B4D46AC2B6EBE20008B8A2D /* Assets.xcassets */,
+				8B4D46AE2B6EBE20008B8A2D /* glowify.entitlements */,
+				8B4D46AF2B6EBE20008B8A2D /* Preview Content */,
+			);
+			path = glowify;
+			sourceTree = "<group>";
+		};
+		8B4D46AF2B6EBE20008B8A2D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B4D46B02B6EBE20008B8A2D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B4D46B92B6EBE20008B8A2D /* glowifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B4D46BA2B6EBE20008B8A2D /* glowifyTests.swift */,
+			);
+			path = glowifyTests;
+			sourceTree = "<group>";
+		};
+		8B4D46C32B6EBE20008B8A2D /* glowifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B4D46C42B6EBE20008B8A2D /* glowifyUITests.swift */,
+				8B4D46C62B6EBE20008B8A2D /* glowifyUITestsLaunchTests.swift */,
+			);
+			path = glowifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B4D46A42B6EBE1F008B8A2D /* glowify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4D46CA2B6EBE20008B8A2D /* Build configuration list for PBXNativeTarget "glowify" */;
+			buildPhases = (
+				8B4D46A12B6EBE1F008B8A2D /* Sources */,
+				8B4D46A22B6EBE1F008B8A2D /* Frameworks */,
+				8B4D46A32B6EBE1F008B8A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glowify;
+			productName = glowify;
+			productReference = 8B4D46A52B6EBE1F008B8A2D /* glowify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B4D46B52B6EBE20008B8A2D /* glowifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4D46CD2B6EBE20008B8A2D /* Build configuration list for PBXNativeTarget "glowifyTests" */;
+			buildPhases = (
+				8B4D46B22B6EBE20008B8A2D /* Sources */,
+				8B4D46B32B6EBE20008B8A2D /* Frameworks */,
+				8B4D46B42B6EBE20008B8A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B4D46B82B6EBE20008B8A2D /* PBXTargetDependency */,
+			);
+			name = glowifyTests;
+			productName = glowifyTests;
+			productReference = 8B4D46B62B6EBE20008B8A2D /* glowifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B4D46BF2B6EBE20008B8A2D /* glowifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4D46D02B6EBE20008B8A2D /* Build configuration list for PBXNativeTarget "glowifyUITests" */;
+			buildPhases = (
+				8B4D46BC2B6EBE20008B8A2D /* Sources */,
+				8B4D46BD2B6EBE20008B8A2D /* Frameworks */,
+				8B4D46BE2B6EBE20008B8A2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B4D46C22B6EBE20008B8A2D /* PBXTargetDependency */,
+			);
+			name = glowifyUITests;
+			productName = glowifyUITests;
+			productReference = 8B4D46C02B6EBE20008B8A2D /* glowifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B4D469D2B6EBE1F008B8A2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8B4D46A42B6EBE1F008B8A2D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8B4D46B52B6EBE20008B8A2D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8B4D46A42B6EBE1F008B8A2D;
+					};
+					8B4D46BF2B6EBE20008B8A2D = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8B4D46A42B6EBE1F008B8A2D;
+					};
+				};
+			};
+			buildConfigurationList = 8B4D46A02B6EBE1F008B8A2D /* Build configuration list for PBXProject "glowify" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B4D469C2B6EBE1F008B8A2D;
+			productRefGroup = 8B4D46A62B6EBE1F008B8A2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B4D46A42B6EBE1F008B8A2D /* glowify */,
+				8B4D46B52B6EBE20008B8A2D /* glowifyTests */,
+				8B4D46BF2B6EBE20008B8A2D /* glowifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B4D46A32B6EBE1F008B8A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4D46B12B6EBE20008B8A2D /* Preview Assets.xcassets in Resources */,
+				8B4D46AD2B6EBE20008B8A2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4D46B42B6EBE20008B8A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4D46BE2B6EBE20008B8A2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B4D46A12B6EBE1F008B8A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4D46AB2B6EBE1F008B8A2D /* ContentView.swift in Sources */,
+				8B4D46A92B6EBE1F008B8A2D /* glowifyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4D46B22B6EBE20008B8A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4D46BB2B6EBE20008B8A2D /* glowifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4D46BC2B6EBE20008B8A2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4D46C72B6EBE20008B8A2D /* glowifyUITestsLaunchTests.swift in Sources */,
+				8B4D46C52B6EBE20008B8A2D /* glowifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B4D46B82B6EBE20008B8A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B4D46A42B6EBE1F008B8A2D /* glowify */;
+			targetProxy = 8B4D46B72B6EBE20008B8A2D /* PBXContainerItemProxy */;
+		};
+		8B4D46C22B6EBE20008B8A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B4D46A42B6EBE1F008B8A2D /* glowify */;
+			targetProxy = 8B4D46C12B6EBE20008B8A2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B4D46C82B6EBE20008B8A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B4D46C92B6EBE20008B8A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8B4D46CB2B6EBE20008B8A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = glowify/glowify.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"glowify/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackathon1.glowify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B4D46CC2B6EBE20008B8A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = glowify/glowify.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"glowify/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackathon1.glowify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B4D46CE2B6EBE20008B8A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackathon1.glowifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glowify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/glowify";
+			};
+			name = Debug;
+		};
+		8B4D46CF2B6EBE20008B8A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackathon1.glowifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/glowify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/glowify";
+			};
+			name = Release;
+		};
+		8B4D46D12B6EBE20008B8A2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackathon1.glowifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = glowify;
+			};
+			name = Debug;
+		};
+		8B4D46D22B6EBE20008B8A2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackathon1.glowifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = glowify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B4D46A02B6EBE1F008B8A2D /* Build configuration list for PBXProject "glowify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4D46C82B6EBE20008B8A2D /* Debug */,
+				8B4D46C92B6EBE20008B8A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4D46CA2B6EBE20008B8A2D /* Build configuration list for PBXNativeTarget "glowify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4D46CB2B6EBE20008B8A2D /* Debug */,
+				8B4D46CC2B6EBE20008B8A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4D46CD2B6EBE20008B8A2D /* Build configuration list for PBXNativeTarget "glowifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4D46CE2B6EBE20008B8A2D /* Debug */,
+				8B4D46CF2B6EBE20008B8A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4D46D02B6EBE20008B8A2D /* Build configuration list for PBXNativeTarget "glowifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4D46D12B6EBE20008B8A2D /* Debug */,
+				8B4D46D22B6EBE20008B8A2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B4D469D2B6EBE1F008B8A2D /* Project object */;
+}
